@@ -1,0 +1,32 @@
+{
+  "name": "medisort-backend",
+  "version": "1.0.0",
+  "description": "Backend for MediSort project",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.876.0",
+    "@aws-sdk/client-s3": "^3.876.0",
+    "@huggingface/inference": "^4.7.1",
+    "axios": "^1.11.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express":"^4.19.2",
+    "firebase": "^12.2.1",
+    "ibm-watson": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.0",
+    "multer":  "^2.0.2" ,
+    "natural": "^8.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
